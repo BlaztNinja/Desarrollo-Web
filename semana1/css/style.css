@@ -1,0 +1,55 @@
+/*fosofjdsoifdsnd*/
+@import url('https://fonts.googleapis.com/css2?family=Betania+Patmos&display=swap');
+
+*{
+    border: 3px;
+    border-style: dotted;
+}
+
+body{
+    background-image: url(../imagenes/el_baile_del_troleo.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    color: white;
+    background-color:blueviolet;
+    font-family: "Betania Patmos", cursive; 
+    line-height: 0.5;
+    font-weight: normal; /*opciones negrita*/
+}
+
+header{
+    color: yellow;
+    background-color:rgb(255, 89, 0);
+    text-align: center;
+    padding: 30px;
+}
+
+nav{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.container{
+    max-width: 760px;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.container article{
+    background-color: rgba(255, 89, 0, 0.8);
+}
+
+footer{
+    color: black;
+    background: #fa73e8;
+    background: linear-gradient(90deg, rgba(250, 115, 232, 1) 0%, rgba(255, 251, 0, 1) 50%, rgba(0, 162, 255, 1) 100%);
+    text-align: center;
+}
+
+header h1{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 28px;
+    padding: 20px;
+}
